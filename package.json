@@ -1,0 +1,11 @@
+{
+  "name": "cyclejs-egghead-tutorial",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/prashantpawar/cyclejs-egghead-tutorial.git",
+  "author": "Prashant Singh Pawar <prashantpawar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^1.14.0"
+  }
+}
