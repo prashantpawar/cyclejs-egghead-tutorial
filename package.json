@@ -5,7 +5,26 @@
   "repository": "https://github.com/prashantpawar/cyclejs-egghead-tutorial.git",
   "author": "Prashant Singh Pawar <prashantpawar@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server"
+  },
   "dependencies": {
-    "webpack": "^1.14.0"
+    "@cycle/dom": "^14.2.0",
+    "@cycle/rxjs-run": "^3.1.0",
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "rxjs": "^5.0.0-rc.5",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0",
+    "xstream": "^9.0.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.0.0-beta.11",
+    "babel-core": "^6.20.0",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-runtime": "^6.20.0",
+    "source-map-loader": "^0.1.5",
+    "webpack-dev-server": "^1.16.2"
   }
 }
